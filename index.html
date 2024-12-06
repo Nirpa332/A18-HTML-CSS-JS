@@ -52,9 +52,20 @@
             section{
                 margin-bottom: 20px;
             }
+            .grid{
+                border: solid blue 1px;
+                display: grid;
+                grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+                gap: 16px;
+
+            }
+
             .card{
                 border: 1px dotted black;
-                border-radius: 9px;
+                border-radius: 18px;
+                padding: 16px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+           
             }
 
 
@@ -78,15 +89,25 @@
 <div class="container">
     <section id="javascript">
         <h2>javascript class</h2>
+     <div class="grid">
         <div class="card">
-    <h3>whar is js</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem culpa ullam error ex esse incidunt rerum reprehenderit harum! Dolores aliquam necessitatibus voluptatibus quae. Molestiae, illum nemo non facere ducimus natus!
-    Nobis minima, atque error fugit sapiente numquam harum impedit delectus! Doloribus rem amet officiis autem blanditiis placeat corporis, ad
-     nobis explicabo possimus fugit neque cum asperiores quasi quas deleniti debitis?
-    </p>
-        </div> <!--card close-->
+            <h3>whar is js</h3>
+            <p>
+                JavaScript (often abbreviated as JS) is a programming language commonly used in web development to make websites interactive. It's a versatile language that can run in web browsers and on servers (using environments like Node.js).
+            </p>
+                </div> <!--card close-->
+                <div class="card">
+                    <h3>whar is js</h3>
+                    <p>
+                        JavaScript (often abbreviated as JS) is a programming language commonly used in web development to make websites interactive. It's a versatile language that can run in web browsers and on servers (using environments like Node.js).
+                    </p>
+                        </div> <!--card close-->
+     </div>
     </section>
 
+
+
+    
 </div> <!--container-->
 
 
